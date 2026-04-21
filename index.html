@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>🛒 My Store</h1>
+<a href="cart.html">Cart</a>
+</header>
+
+<div class="controls">
+<input type="text" id="search" placeholder="Search...">
+
+<select id="category">
+<option value="all">All</option>
+<option value="electronics">Electronics</option>
+<option value="fashion">Fashion</option>
+<option value="grocery">Grocery</option>
+</select>
+
+<select id="sort">
+<option value="">Sort</option>
+<option value="low">Price Low→High</option>
+<option value="high">Price High→Low</option>
+<option value="az">A→Z</option>
+</select>
+</div>
+
+<div id="products" class="grid"></div>
+<div id="pagination"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
